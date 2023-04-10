@@ -80,6 +80,11 @@ nav > ul > li {
   display: inline-block;
 }
 
+/* nav ul li a {
+  display: block;
+  padding: 20px;
+} */
+
 nav {
   display: inline-block;
 }
@@ -87,16 +92,22 @@ nav {
 section {
   width: 700px;
   display: inline-block;
+  
 }
 
 aside {
   width: 180px;
   display: inline-block;
   margin-right: 15px;
+  vertical-align: top;
 }
 
 .ingredients-list {
   margin: 25px 0px;
+}
+
+.ingredients-list li {
+  margin: 10px 0px;
 }
 
 
@@ -104,19 +115,34 @@ aside {
   margin: 25px 0px;
 }
 
-input {
+select {
+  margin: 20px 0px;
+  width: 180px;
   display: block;
 }
 
-select {
-  margin: 20px;
-  width: 180px;
-}
-
 textarea {
-  width: 250px;
+  width: 400px;
+  height: 80px;
+  margin: 20px 0px;
+  display: block;
 }
 
 input[type=text] {
-  width: 300px;
+  width: 250px;
+  display: block;
+  /* margin: 20px, 15px; */
+}
+
+#reviews {
+  margin: 0px 15px;
+}
+
+#review {
+  /* vertical-align: top; */
+  display: block;
+}
+
+label {
+  display: block;
 }
